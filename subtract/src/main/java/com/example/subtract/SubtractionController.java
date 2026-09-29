@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "zealous-optimism-production-eb79.up.railway.app")
 public class SubtractionController {
 
     @PostMapping("/subtract/{a}/{b}")
