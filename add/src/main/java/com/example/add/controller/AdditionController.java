@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "glistening-success-production-570f.up.railway.app")
+@CrossOrigin(origins = "https://beautiful-calculatorui.netlify.app")
 public class AdditionController {
 
     @PostMapping("/add/{a}/{b}")
